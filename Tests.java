@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 public class MaxOfThreeTernaryTest {
 
     @Test
-    void testMaxWithDistinctNumbersOne() {
+    void testMaxWithDistinctNumbersOnePromqnaOtDimo() {
         int result = MaxOfThreeTernary.findMax(5, 9, 3);
         assertEquals(9, result, "Max of 5, 9, 3 should be 9");
     }
