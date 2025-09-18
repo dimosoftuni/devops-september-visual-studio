@@ -10,7 +10,7 @@ public class MaxOfThreeTernaryTest {
     }
 
     @Test
-    void testMaxWithEqualNumbers() {
+    void testMaxWithEqualNumbersDimo() {
         int result = MaxOfThreeTernary.findMax(7, 7, 7);
         assertEquals(7, result, "Max of 7, 7, 7 should be 7");
     }
