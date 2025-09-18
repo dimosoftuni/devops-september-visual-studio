@@ -14,4 +14,9 @@ public class MaxOfThreeTernaryTest {
         int result = MaxOfThreeTernary.findMax(7, 7, 7);
         assertEquals(7, result, "Max of 7, 7, 7 should be 7");
     }
+    @Test
+    void testMaxWithEqualNumbers() {
+        int result = MaxOfThreeTernary.findMax(7, 7, 7);
+        assertEquals(7, result, "Max of 7, 7, 7 should be 7");
+    }
 }
